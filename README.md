@@ -36,9 +36,9 @@ Otherwise, SSH is probably advisable:
 
 **Make a virtual environment**
 
-Make sure you have Python 3 installed (preferably 3.10 or above). If you do not, may I suggest using Homebrew (brew.sh) to install it?
+Make sure you have Python 3 installed (preferably 3.10 or above). If you do not, may I suggest using [Homebrew](brew.sh) to install it?
 
-To create the virtual environment, run (I prefer to use `python3.11` to ensure what version we're using):
+To create the virtual environment, run (I prefer to explicitly write the version, e.g., `python3.11`, to avoid surprises):
 
 `python3 -m venv venv`
 
