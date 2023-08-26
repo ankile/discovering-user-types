@@ -1,6 +1,23 @@
 # Discovering User Types: _Mapping User Traits by Task-Specific Behaviors in Reinforcement Learning_
 
-Source code for experiments for workshop paper at ICML 2023.
+Source code for experiments for [our paper](https://arxiv.org/pdf/2307.08169.pdf) at the [ICML 2023](https://icml.cc/Conferences/2023) workshops on [AI & Human-Computer Interaction](https://sites.google.com/view/aihci/home) (best paper runner-up), [Theory of Mind](https://tomworkshop.github.io/), and [Interactive Learning with Implicit Human Feedback](https://interactive-learning-implicit-feedback.github.io/).
+
+[Read the paper](https://arxiv.org/pdf/2307.08169.pdf) and consider citing our work if you find it helpful:
+
+```bibtex
+@article{ankile2023discovering,
+  title={Discovering User Types: Mapping User Traits by Task-Specific Behaviors in Reinforcement Learning},
+  author={Ankile, Lars L and Ham, Brian S and Mao, Kevin and Shin, Eura and Swaroop, Siddharth and Doshi-Velez, Finale and Pan, Weiwei},
+  journal={arXiv preprint arXiv:2307.08169},
+  year={2023}
+}
+```
+
+**Abstract:**
+
+_When assisting human users in reinforcement learning (RL), we can represent users as RL agents and study key parameters, called user traits, to inform intervention design. We study the relationship between user behaviors (policy classes) and user traits. Given an environment, we introduce an intuitive tool for studying the breakdown of "user types": broad sets of traits that result in the same behavior. We show that seemingly different real-world environments admit the same set of user types and formalize this observation as an equivalence relation defined on environments. By transferring intervention design between environments within the same equivalence class, we can help rapidly personalize interventions._
+
+
 
 ## Quickstart
 
